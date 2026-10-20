@@ -22,4 +22,4 @@ Finally, we include benchmarks and open-source implementations to compare differ
 
 ## References:
 - Li et. al., A Tutorial Review on Point Cloud Registrations: Principle, Classification, Comparison, and Technology Challenges (Review Article) - 2021
-- Lecture: Mobile Sensing and Robotics 2 (Summer 2021, Uni Bonn) by Cyrill Stachniss (https://youtube.com/playlist?list=PLgnQpQtFTOGQh_J16IMwDlji18SWQ2PZ6&si=yMtEDNExqXjB7ICg)
+- Lecture Series: [*Mobile Sensing and Robotics 2*](https://youtube.com/playlist?list=PLgnQpQtFTOGQh_J16IMwDlji18SWQ2PZ6&si=yMtEDNExqXjB7ICg) — Cyrill Stachniss, University of Bonn, Summer 2021.
