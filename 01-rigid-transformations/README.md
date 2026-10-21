@@ -1,6 +1,6 @@
 # Introduction
 
-
+In this chapter, we briefly introduce some fundamental concepts needed to understand point cloud registration. We first explain what a point cloud is and how 3D data can be represented. Then, we discuss rigid transformations and their mathematical representation using rotation and translation. Finally, we introduce the point cloud registration problem and explain how rigid transformations are used to align two point clouds.
 
 # Point Cloud
 
@@ -58,3 +58,11 @@ R & \mathbf{t} \\
 ```
 
 where $T \in SE(3)$.
+
+# Point Cloud Registration
+
+The concept of rigid transformation is fundamental to point cloud registration. To match (register) a point cloud $P_j$ with another point cloud $P_i$, the goal is to find the rotation and translation that best align the corresponding regions of the two point clouds.
+
+One common approach to solving this problem is to identify corresponding points between the two point clouds and then estimate the rigid transformation that minimizes the alignment error between these correspondences.
+
+Therefore, in the next chapter, we will discuss some common strategies for finding point correspondences.
