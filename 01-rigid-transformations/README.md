@@ -61,7 +61,15 @@ where $T \in SE(3)$.
 
 # Point Cloud Registration
 
-The concept of rigid transformation is fundamental to point cloud registration. To match (register) a point cloud $P_j$ with another point cloud $P_i$, the goal is to find the rotation and translation that best align the corresponding regions of the two point clouds.
+The concept of rigid transformation is fundamental to point cloud registration. To match (register) a point cloud $P_j$ with another point cloud $P_i$, the goal is to find the rotation and translation that best align the corresponding regions of the two point clouds. This concept is illustrated in Fig. 2.
+
+<p align="center">
+  <img src="figures/pointcloud-registration.png" width="500">
+</p>
+
+<p align="center">
+  <em>Figure 2: Point cloud registration. Two initially misaligned point clouds are aligned by estimating the rigid transformation between them.</em>
+</p>
 
 One common approach to solving this problem is to identify corresponding points between the two point clouds and then estimate the rigid transformation that minimizes the alignment error between these correspondences.
 
